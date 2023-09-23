@@ -1,0 +1,25 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  // background-color: lightgray; // this is going to be set by theme
+  border: 1px solid green;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 3rem;
+`;
+
+export const Card = styled.div`
+  backgound-color: gray;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+`;
+
+export const Name = styled.h1`
+  color: darkred;
+`;
+
+export const Description = styled.p`
+  color: darkgreen;
+`;

@@ -1,0 +1,16 @@
+Having <Card> to be theme oriented, that means <CardTheme>.
+
+Changes required:
+1- Analyse every component (component/styles.js file) and target which property needs to be changed by theme. and comment that out.
+For example, in <CardTheme> only background-color for Container will apply theme.
+ps. What if more CSS props, in different HTML elements, need to be changed by theme?
+One way is to give it an id (see CardTheme/index.js), which will allow to grab that item on GlobalStyles (see below).
+ps2. The HTML element can also be grabbed by its tag, as long as it is unique in the entire system.
+
+2- see ThemeConfig.js
+ Basically it brings to the theme object (lightTheme and darkTheme) the CSS property to be changed/controlled by theme.
+ In GlobalStyles variable, map the component (here by id) and apply the theme for that particular property.
+
+3- The component (<CardTheme>) needs to have an id defined, so it can be picked on GlobalStyles (see above) - or a unique tag.
+As stated in the first item above, when more elements need to have CSS props changed, apply id on it.
+
