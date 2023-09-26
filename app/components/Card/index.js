@@ -11,11 +11,12 @@ const data = [
   }
 ];
 
-// this is one way of setting styles
+// this is one way of setting styles, grabbing them from styles.js (styled-components)
 // switching theme DOES NOT change anything in this component
 function Cards() {
   return (
     <Container>
+      <span>It doesn&apos;t apply theme</span>
       { data.map((e, index) => (
           <Card key={index}>
             <Name> {e.name} </Name>

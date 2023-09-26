@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
+// the properties commented out means they are going to be defined in ThemeConfig.js
+// all others keep being defined in here
 export const Container = styled.div`
-  // background-color: lightgray; // this is going to be set by theme
+  // background-color: lightgray; // this is going to be set by theme- DON'T need it here
   border: 1px solid green;
   border-radius: 15px;
   padding: 2rem;
@@ -9,7 +11,6 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  backgound-color: gray;
   border: 1px solid darkgray;
   border-radius: 8px;
   padding: 1rem;
@@ -17,9 +18,12 @@ export const Card = styled.div`
 `;
 
 export const Name = styled.h1`
-  color: darkred;
+  // color: darkred; // this is defined by theme - DON'T need it here
+  &:hover {
+    font-style: italic;
+  }
 `;
 
 export const Description = styled.p`
-  color: darkgreen;
+  // color: darkgreen; // this is defined by theme - DON'T need it here
 `;

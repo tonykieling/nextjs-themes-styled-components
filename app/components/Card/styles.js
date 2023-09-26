@@ -9,7 +9,6 @@ export const Container = styled.div`
 `;
 
 export const Card = styled.div`
-  backgound-color: gray;
   border: 1px solid darkgray;
   border-radius: 8px;
   padding: 1rem;
@@ -18,8 +17,11 @@ export const Card = styled.div`
 
 export const Name = styled.h1`
   color: darkred;
+  &:hover {
+    font-style: italic;
+  }
 `;
 
 export const Description = styled.p`
-  color: darkgreen;
+  color: marron;
 `;

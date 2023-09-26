@@ -12,9 +12,10 @@ const data = [
 ];
 
 // this is the another way of setting styles, by using theme
+// the style comes from styles.js (styled-components) AND also from ThemeConfig.js
 function Cards() {
   return (
-    <Container id="cardTheme">  {/* difference is adding id for the element to be changed by theme  */}
+    <Container id="cardTheme">  {/* difference in the current file is adding id to the element to be changed by theme  */}
       { data.map((e, index) => (
           <Card key={index}>
             <Name> {e.name} </Name>
