@@ -8,7 +8,7 @@ In the terminal, execute the following steps.
 ```# git clone https://github.com/tonykieling/nextjs-themes-styled-components.git```
 
 2. Get inside its directory and install the dependencies:  
-```# cd https://github.com/tonykieling/nextjs-themes-styled-components```  
+```# cd nextjs-themes-styled-components```  
 ```# npm i```
 
 3. Optionality, open up the source code with VSCode:  
