@@ -12,7 +12,7 @@ export const Container = styled.div`
   width: 50%;
 `;
   
-  export const Card = styled.div`
+export const Card = styled.div`
   border: 1px solid darkgray;
   border-radius: 8px;
   padding: 1rem;

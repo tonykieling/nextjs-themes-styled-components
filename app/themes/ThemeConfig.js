@@ -26,6 +26,7 @@ export const darkTheme = {
 //////////////////////// second part
 // the CSS properties being applied in their respective contexts and using the theme object from part 1
 export const GlobalStyles = createGlobalStyle`
+  // ### general CSS settings
   body {
     background-color: ${({ theme }) => theme.body.bgColor};
     display: flex;
@@ -37,6 +38,8 @@ export const GlobalStyles = createGlobalStyle`
     height: 2.5rem;
   }
 
+
+  // ### CardsTheme1
   // first way of styling, keeping the original style.js files in each component
   // only what needs to be changed by theme will be in here
   #cardTheme {
@@ -45,6 +48,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 
 
+  // ### CardsTheme2
   // second way of styling, bringing all properties from style.js for this very file
   // two things to note
   //  1. the current file will get big easily and potentially hard to manage
