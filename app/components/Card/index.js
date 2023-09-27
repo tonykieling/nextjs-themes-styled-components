@@ -3,12 +3,12 @@ import { Container, Card, Name, Description } from "./styles";
 const data = [
   {
     name: "Jon Doe",
-    desc: "This is one guy"
+    desc: "This is one person"
   },
-  {
-    name: "Alice Simon",
-    desc: "This is a lady"
-  }
+  // {
+  //   name: "Alice Simon",
+  //   desc: "This is another person"
+  // }
 ];
 
 // this is one way of setting styles, grabbing them from styles.js (styled-components)

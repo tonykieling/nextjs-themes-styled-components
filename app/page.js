@@ -3,8 +3,8 @@
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles } from "./themes/ThemeConfig";
-import CardsTheme from "./components/CardTheme";
-import Cards from "./components/Card";
+import CardsTheme1 from "./components/CardsTheme1";
+import CardsTheme2 from "./components/CardsTheme2";
 
 export default function MyApp() {
   const [theme, setTheme] = useState("light");
@@ -15,8 +15,8 @@ export default function MyApp() {
     <ThemeProvider theme={theme == 'light' ? lightTheme : darkTheme}>
       <GlobalStyles />
       <button onClick={toggleTheme}> Switch Theme to {theme === "light" ? "DARK" : "LIGHT"} </button>
-      <CardsTheme />
-      <Cards />
+      <CardsTheme1 />
+      <CardsTheme2 />
     </ThemeProvider>
   );
 }
