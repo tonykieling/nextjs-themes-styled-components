@@ -17,16 +17,16 @@ cd nextjs-themes-styled-components
 npm i
 ```
 
-3- Optionality, open up the source code with VSCode:
-
-```
-code .
-```
-
-4- Run the app:
+3- Run the app:
 
 ```
 npm run dev
+```
+
+4- Optionality, open up the source code with VSCode and play around:
+
+```
+code .
 ```
 
 <br />

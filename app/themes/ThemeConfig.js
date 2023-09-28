@@ -40,8 +40,8 @@ export const GlobalStyles = createGlobalStyle`
 
 
   // ### CardsTheme1
-  // first way of styling, keeping the original style.js files in each component
-  // only what needs to be changed by theme will be in here
+  // first way of styling, keeping the original style.js files of each component
+  // only what needs to be changed by theme will be set in here
   #cardTheme {
     background-color: ${({ theme }) => theme.cardTheme.bgColor};
     color: ${({ theme }) => theme.cardTheme.fontColor};

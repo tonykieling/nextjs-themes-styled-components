@@ -3,7 +3,7 @@ import styled from 'styled-components';
 // the properties commented out means they are going to be defined in ThemeConfig.js
 // all other CSS properties keep being defined in here
 export const Container = styled.div`
-  // background-color: lightgray; // this is going to be set by theme- DON'T need it here
+  // background-color: lightgray; // this is going to be set by theme - DON'T need it here
   border: 1px solid green;
   border-radius: 15px;
   padding: 2rem;
