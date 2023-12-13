@@ -71,6 +71,7 @@ export const GlobalStyles = createGlobalStyle`
     margin-bottom: 1rem;
   }
   #name {
+    display: inline;
     &:hover {
       font-style: italic;
     }

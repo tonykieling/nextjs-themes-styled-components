@@ -20,6 +20,7 @@ export const Card = styled.div`
 
 export const Name = styled.h1`
   // color: darkred; // this is defined by theme - DON'T need it here
+  display: inline;
   &:hover {
     font-style: italic;
   }
